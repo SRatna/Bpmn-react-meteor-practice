@@ -1,0 +1,21 @@
+{
+  "name": "bpmn",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "bpmn-js": "^0.20.7",
+    "closest": "0.0.1",
+    "diagram-js": "^0.19.6",
+    "event": "^1.0.0",
+    "indexof": "0.0.1",
+    "jquery": "^3.2.1",
+    "matches-selector": "^1.0.0",
+    "meteor-node-stubs": "~0.2.4",
+    "query": "^0.2.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}

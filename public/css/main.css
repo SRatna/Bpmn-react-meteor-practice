@@ -1,0 +1,28 @@
+/* CSS declarations go here */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 12px;
+
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#canvas, #dropZone {
+    width: 100%;
+    height: 100%;
+}
+.content.with-diagram .canvas {
+    visibility: visible;
+}
+#app {
+    width: 100%;
+    height: 100%;
+}
