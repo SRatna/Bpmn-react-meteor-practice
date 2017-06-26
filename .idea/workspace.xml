@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03b00f47-ebbe-4342-98a6-fd6f8bc644a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/BpmnModelerTemplate.js" afterPath="$PROJECT_DIR$/client/BpmnModelerTemplate.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/client/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -44,11 +42,10 @@
       <file leaf-file-name="BpmnModelerTemplate.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/BpmnModelerTemplate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="131">
+              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
-                <marker date="1497965113124" expanded="true" signature="101:680113" ph="{...}" />
-                <marker date="1497965113124" expanded="true" signature="127:129" ph="{...}" />
+                <marker date="1498495987086" expanded="true" signature="127:129" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,6 +181,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,23 +294,26 @@
       <updated>1497922807805</updated>
       <workItem from="1497922818059" duration="21603000" />
       <workItem from="1497964860290" duration="189000" />
+      <workItem from="1498490995897" duration="1884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21792000" />
+    <option name="totallyTimeSpent" value="23676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26094005" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26094005" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -338,6 +338,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/BpmnModelerTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1498495987086" expanded="true" signature="127:129" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -368,16 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="997830">
           <caret line="66522" column="49" lean-forward="true" selection-start-line="66522" selection-start-column="49" selection-end-line="66522" selection-end-column="49" />
-          <folding>
-            <marker date="1497962435831" expanded="true" signature="23349:23408" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="23445:23467" ph="data:" />
-            <marker date="1497962435831" expanded="true" signature="547661:547692" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="547725:547747" ph="data:" />
-            <marker date="1497962435831" expanded="true" signature="1155286:1155326" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="1168754:1168772" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="1311556:1311596" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="1320219:1320237" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -460,40 +486,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/BpmnModelerTemplate.heavy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="997830">
+          <caret line="66522" column="49" lean-forward="false" selection-start-line="66522" selection-start-column="49" selection-end-line="66522" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/BpmnModelerTemplate.heavy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997830">
-          <caret line="66522" column="49" lean-forward="false" selection-start-line="66522" selection-start-column="49" selection-end-line="66522" selection-end-column="49" />
-          <folding>
-            <marker date="1497962435831" expanded="true" signature="23349:23408" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="23445:23467" ph="data:" />
-            <marker date="1497962435831" expanded="true" signature="547661:547692" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="547725:547747" ph="data:" />
-            <marker date="1497962435831" expanded="true" signature="1155286:1155326" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="1168754:1168772" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="1311556:1311596" ph="..." />
-            <marker date="1497962435831" expanded="true" signature="1320219:1320237" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/BpmnModelerTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="131">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <marker date="1497965113124" expanded="true" signature="101:680113" ph="{...}" />
-            <marker date="1497965113124" expanded="true" signature="127:129" ph="{...}" />
+            <marker date="1498495987086" expanded="true" signature="127:129" ph="{...}" />
           </folding>
         </state>
       </provider>
