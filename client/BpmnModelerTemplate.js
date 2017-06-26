@@ -12,7 +12,7 @@ export default class BpmnModelerTemplate extends Component {
                 <div id="dropZone" className="with-diagram">
                     <div id="canvas" className="canvas"></div>
                 </div>
-                <ul class="buttons">
+                <ul className="buttons">
                     <li>
                         download
                     </li>
