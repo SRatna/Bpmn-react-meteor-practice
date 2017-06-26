@@ -8,7 +8,7 @@ export default class BpmnModelerTemplate extends Component {
     }
     render(){
         return (
-            <div>
+            <section>
                 <div id="dropZone" className="with-diagram">
                     <div id="canvas" className="canvas"></div>
                 </div>
@@ -22,7 +22,7 @@ export default class BpmnModelerTemplate extends Component {
                         </a>
                     </li>
                 </ul>
-            </div>
+            </section>
 
         );
     }
