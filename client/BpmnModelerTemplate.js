@@ -1,6 +1,5 @@
 import React,{ Component } from 'react';
 import BpmnModeler from 'bpmn-js/lib/Modeler';
-import $ from 'jquery';
 export default class BpmnModelerTemplate extends Component {
     saveBpmn(e) {
 		e.preventDefault();
@@ -17,7 +16,7 @@ export default class BpmnModelerTemplate extends Component {
 			}
 		}
 		
-		var canvas = $('#canvas');
+		var canvas = this.refs.canvas;
 		var modeler = new BpmnModeler({ container: canvas });
 
 		function saveDiagram(done) {
@@ -26,7 +25,7 @@ export default class BpmnModelerTemplate extends Component {
 			});
 		}
         saveDiagram(function(err, xml) {
-            setEncoded($('#js-download-diagram'), 'diagram.bpmn', err ? null : xml);
+            setEncoded(this.refs.download_diagram, 'diagram.bpmn', err ? null : xml);
         });
     }
     componentDidMount() {
@@ -38,14 +37,14 @@ export default class BpmnModelerTemplate extends Component {
         return (
             <section>
                 <div id="dropZone" className="with-diagram">
-                    <div id="canvas" className="canvas"></div>
+                    <div ref="canvas" id="canvas" className="canvas"></div>
                 </div>
                 <ul className="buttons">
                     <li>
                         download
                     </li>
                     <li>
-                        <a onClick={this.saveBpmn.bind(this)} className="active" id="js-download-diagram" href title="download BPMN diagram">
+                        <a onClick={this.saveBpmn.bind(this)} className="active" ref="download_diagram" id="js-download-diagram" href title="download BPMN diagram">
                             BPMN diagram
                         </a>
                     </li>
