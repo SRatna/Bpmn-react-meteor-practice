@@ -1,5 +1,6 @@
 import React,{ Component } from 'react';
 import BpmnModeler from 'bpmn-js/lib/Modeler';
+import $ from 'jquery';
 export default class BpmnModelerTemplate extends Component {
     saveBpmn(e) {
 		e.preventDefault();
